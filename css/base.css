@@ -6,5 +6,8 @@ body{
 }
 body *{
     background: #d8d8d8;
+    
+}
+div,header,aside,footer{
     margin: 1px;
 }

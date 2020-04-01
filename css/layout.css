@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   div{
       display: block;
       width: 100%;
@@ -88,4 +88,96 @@
     footer p{
       line-height: 150px;
     }
+    } */
+    @media only screen and (max-width: 767px) {
+    body{
+      display: flex;
+      flex-direction: column;
     }
+    main{
+      background: border-box;
+    }
+    section div{
+      background: #d8d8d8;
+      margin: 1px;
+    }
+    section{
+      background: border-box;
+    }
+    header{
+      height: 10vh;
+  }
+  aside{
+    height: 20vh;
+  }
+  footer{
+    height: 10vh;
+}
+.cAndD{
+  height: 16vh;
+
+}
+section#sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1px;
+  /* grid-template-rows: repeat(auto-fill , 32vh); */
+}
+.eFGHClass{
+  
+  height: 32vh;
+  
+
+}
+div ,header , footer ,aside{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}}
+@media only screen and (min-width: 767px) {
+  body{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header{
+    width: 96.5vw;
+    height: 10.5vh;
+  }
+  aside{
+    height: 63vh;
+    width: 20vw;
+  }
+  main{
+    background: border-box;
+    height: 63vh;
+    width: calc(77vw - 4px);
+    display: flex;
+    flex-flow: wrap;
+    margin: 0;
+  }
+  main div {
+    width: calc(38.2vw - 2px);
+    height: 21vh;
+  }
+  section div{
+    height: 26vh;
+    /* width: 19vw; */
+  }
+  section{
+    background: border-box;
+    width: 76.5vw;
+    display: flex;
+    height: calc(26vh + 1px);
+  }
+  div ,header , footer ,aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  footer{
+    height: 15.6vh;
+    width: 78vw;
+  }
+
+}
+
